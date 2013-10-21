@@ -6,6 +6,8 @@
 
 body {
     font-family: Cedarville Cursive, cursive;
+    background-image: url("diamonds.jpg");
+    align-content: center;
 }
 
 p {
@@ -21,22 +23,32 @@ header img{
 
 nav {
     margin-top: 10px;
+    align-content: center;
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
+    width: 600px;
 }
 
 nav a {
+    align-content: center;
     color: #aaaaaa;
     margin-left: 15px;
     font-size: 20px;
     text-decoration: none;
 }
 
+nav a hover {
+    align-content: center;
+    color: #D9FFFE;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
 article img{
-    float: left;
     margin-right: 10px;
     width: 20%;
-    
+    float: left;
 }
 
 article a{
@@ -44,6 +56,7 @@ article a{
 }
 
 article {
+    align-content:center;
     margin-top: 10px;
     padding: 10px 10px 10px 10px;
     font-family: serif;
@@ -78,7 +91,7 @@ article h2 {
     color: #aaaaaa;
 }
 
-li {
+ul {
     color: #aaaaaa;
     margin-top:10px;
     line-height: 24px;
@@ -91,14 +104,18 @@ article div {
     background color: #ffffff;
     height: auto;
     width: 500px;
-
 }
 
-article div.figure
-  {
+article div.figure{
   margin:3px;
   border:1px solid #ffffff;
   }
+
+article div.figure img
+{
+    width:50%;
+    float: none;
+}
 
 article div. p {
   text-align: center;
