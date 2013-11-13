@@ -18,15 +18,16 @@ p {
 }
 
 header img{
-    align-content:center;
+    align-content: center;
 }
 
 nav {
     margin-top: 10px;
+    text-align: center;
     align-content: center;
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
-    width: 600px;
+    width: 100%;
 }
 
 nav a {
@@ -57,13 +58,12 @@ article a{
 }
 
 article {
-    align-content:center;
     margin-top: 10px;
     padding: 10px 10px 10px 10px;
     font-family: serif;
     background-color: #ffffff;
-    height: auto;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     border-style: inset;
     border-color: #aaaaaa;
     border-width: 5px;
@@ -137,3 +137,49 @@ footer {
 footer a{
     color: #aaaaaa;
 }
+
+#content {
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+body {
+    padding: 5%;    
+}
+    
+article img {
+    height: auto;
+    width: 40%;   
+    }
+ 
+h1, h2 {
+    text-align: center;
+    margin: clear;
+    padding: clear;
+    
+    }
+header img {
+    align-content: center;
+        
+    }
+
+article ul  {
+     text-align: center;
+    }
+p {
+     text-align: center;   
+    }
+    
+nav {
+    width: 100%;
+    list-style-type: inline;
+}
+
+#content {
+        width:100%;
+        margin-left: 0;
+        clear: left;
+}
+    
+}    
