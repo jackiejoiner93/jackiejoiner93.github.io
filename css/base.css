@@ -19,6 +19,7 @@ p {
 }
 
 header img{
+    height:100%;
     align-content: center;
 }
 
@@ -101,19 +102,23 @@ aticle ul {
 
 article div {
    float: none;
+    align-content: center;
     background color: #ffffff;
     height: auto;
-    width: 500px;
+    width: auto;;
 }
 
 article div.figure{
   margin:3px;
-  border:1px solid #ffffff;
   }
 
 article div.figure img
 {
-    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    display: inline;
+    border:1px solid #ffffff;
     float: none;
 }
 
@@ -122,7 +127,8 @@ article div.figure p {
     float: left;
     font-size: smaller;
     width: auto;
-  text-indent: 0;
+    text-indent: 0;
+    
 }
 
 footer {
@@ -139,6 +145,10 @@ footer a{
 
 
 @media screen and (max-width: 600px) {
+    
+* img {
+    max-width: 500px;
+    }
     
 body {
     padding: 5%;    
@@ -188,7 +198,12 @@ article p {
     }
     
 article div.figure img{
+    margin-left: auto;
+    margin-right: auto;
     width: 30%;
+    display: block;
+    float: none;
+    align-content: center;
     }
     
 article div.figure p {
