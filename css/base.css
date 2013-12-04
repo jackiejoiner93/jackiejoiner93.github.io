@@ -20,6 +20,8 @@ p {
 
 header img{
     height:100%;
+    margin-right: auto;
+    margin-left: auto;
     align-content: center;
 }
 
@@ -47,6 +49,16 @@ nav a hover {
     
 }
 
+article {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff;
+    height:auto;
+    border-style: inset;
+    border-color: #aaaaaa;
+    border-width: 5px;
+}
+
 article img{
     margin-right: 10px;
     margin-top: 10px;
@@ -58,16 +70,6 @@ article a{
     color: #aaaaaa;
 }
 
-article {
-    margin: 10px 0px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    background-color: #ffffff;
-    height: 100%;
-    width: auto;
-    border-style: inset;
-    border-color: #aaaaaa;
-    border-width: 5px;
-}
 
 article p {
     color: #aaaaaa;
@@ -92,12 +94,13 @@ article h2 {
     color: #aaaaaa;
 }
 
-aticle ul {
+ul {
     color: #aaaaaa;
     margin-top:10px;
     line-height: 24px;
     margin-bottom: 10px;
     font-family: Shadows Into Light Two, sans-serif;
+    font-size: 20px
 }
 
 article div {
@@ -116,19 +119,11 @@ article div.figure img
 {
     margin-left: auto;
     margin-right: auto;
+    align-content: center;
     width:20%;
     display: inline;
     border:1px solid #ffffff;
     float: none;
-}
-
-article div.figure p {
-    text-align: center;
-    float: left;
-    font-size: smaller;
-    width: auto;
-    text-indent: 0;
-    
 }
 
 footer {
@@ -167,12 +162,20 @@ nav {
     
 nav a {
     display:block;
+    font-size: 20px;
     }
     
 h1, h2 {
     text-align: center;
     margin: clear;
     padding: clear;
+    }
+h1{
+    font-size: 18px;
+    }
+    
+h2 {
+    font-size: 16px;
     }
     
 article {
@@ -212,8 +215,9 @@ article div.figure p {
         align-content: center;
     }
         
-article ul  {
+ ul  {
      text-align: center;
+    font-size: 14px;
     }
 p {
      text-align: center;
