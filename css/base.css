@@ -19,9 +19,12 @@ p {
 }
 
 header img{
+<<<<<<< HEAD
     height:100%;
     margin-right: auto;
     margin-left: auto;
+=======
+>>>>>>> parent of 36e1dec... edited portfolio and css
     align-content: center;
 }
 
@@ -105,18 +108,19 @@ ul {
 
 article div {
    float: none;
-    align-content: center;
     background color: #ffffff;
     height: auto;
-    width: auto;;
+    width: 500px;
 }
 
 article div.figure{
   margin:3px;
+  border:1px solid #ffffff;
   }
 
 article div.figure img
 {
+<<<<<<< HEAD
     margin-left: auto;
     margin-right: auto;
     align-content: center;
@@ -126,6 +130,20 @@ article div.figure img
     float: none;
 }
 
+=======
+    width:50%;
+    float: none;
+}
+
+article div.figure p {
+    text-align: center;
+    float: left;
+    font-size: smaller;
+    width: auto;
+  text-indent: 0;
+}
+
+>>>>>>> parent of 36e1dec... edited portfolio and css
 footer {
     text-align:center;
     background-color: #ffffff;
@@ -140,10 +158,6 @@ footer a{
 
 
 @media screen and (max-width: 600px) {
-    
-* img {
-    max-width: 500px;
-    }
     
 body {
     padding: 5%;    
@@ -201,12 +215,7 @@ article p {
     }
     
 article div.figure img{
-    margin-left: auto;
-    margin-right: auto;
     width: 30%;
-    display: block;
-    float: none;
-    align-content: center;
     }
     
 article div.figure p {
