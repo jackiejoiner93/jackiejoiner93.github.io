@@ -4,6 +4,7 @@
     padding: 0px;
 }
 
+
 body {
     font-family: Cedarville Cursive, cursive;
     background-image: url("diamonds.jpg");
@@ -31,7 +32,6 @@ nav {
 }
 
 nav a {
-    align-content: center;
     font-size: 26px;
     color: #aaaaaa;
     margin-left: 15px;
@@ -49,7 +49,7 @@ nav a hover {
 article img{
     margin-right: 10px;
     margin-top: 10px;
-    width: 20%;
+    width: 10%;
     float: left;
 }
 
@@ -58,11 +58,11 @@ article a{
 }
 
 article {
-    margin-top: 10px;
+    margin: 10px 0px 10px 10px;
     padding: 10px 10px 10px 10px;
     background-color: #ffffff;
     height: 100%;
-    width: 100%;
+    width: auto;
     border-style: inset;
     border-color: #aaaaaa;
     border-width: 5px;
@@ -117,11 +117,11 @@ article div.figure img
     float: none;
 }
 
-article div. p {
-  text-align: center;
-  float: left;
-  font-style: italic;
-  font-size: smaller;
+article div.figure p {
+    text-align: center;
+    float: left;
+    font-size: smaller;
+    width: auto;
   text-indent: 0;
 }
 
@@ -137,49 +137,80 @@ footer a{
     color: #aaaaaa;
 }
 
-#content {
-    
-}
 
 @media screen and (max-width: 600px) {
     
 body {
     padding: 5%;    
 }
-    
-article img {
-    height: auto;
-    width: 40%;   
-    }
- 
-h1, h2 {
-    text-align: center;
-    margin: clear;
-    padding: clear;
-    
-    }
+  
 header img {
     align-content: center;
     align-items: center;
     width: 100%;
-        
-    }
-
-article ul  {
-     text-align: center;
-    }
-p {
-     text-align: center;   
     }
     
 nav {
     width: 100%;
-}
+    padding-right: 10px;
+    }
+    
+nav a {
+    display:block;
+    }
+    
+h1, h2 {
+    text-align: center;
+    margin: clear;
+    padding: clear;
+    }
+    
+article {
+    font-size: 14px;
+    width: auto;
+    background-color: #ffffff;
+    }
+article h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    }
+    
+article img {
+    float: none;
+    align-content: center;
+    width: 0%;
+    }
+    
+article p {
+    font-size: 14px;
+    }
+    
+article div.figure img{
+    width: 30%;
+    }
+    
+article div.figure p {
+        font-size: 14px;
+        float: none;
+        align-content: center;
+    }
+        
+article ul  {
+     text-align: center;
+    }
+p {
+     text-align: center;
+    }
+    
+footer {
+    font-size: 10px;
+    }
+    
+footer a {
+    font-size: 12px;
+    }
 
-#content {
-        width:100%;
-        margin-left: 0;
-        clear: left;
-}
     
 }    
