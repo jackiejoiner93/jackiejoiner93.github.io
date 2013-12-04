@@ -191,9 +191,9 @@ article h1 {
     }
     
 article img {
-    float: none;
     align-content: center;
-    width: 0%;
+    width: 30%;
+    clear: both;
     }
     
 article p {
